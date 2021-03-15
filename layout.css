@@ -23,9 +23,76 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   h1{
       align-items: center;
       justify-content: center;
       place-items: center   ;
   }
+  .eventHeading {
+    border: 5px solid purple;
+    padding: 20px;
+  }
+  .events {
+    border: 5px solid fuchsia;
+    padding: 50px;
+  
+    overflow: hidden;
+  }
+  .team {
+    border: 5px solid rgb(34, 23, 8);
+  }
+  .corporation {
+    border: 5px solid yellow;
+  
+    float: left;
+    width: 33%;
+    padding: 30px;
+    background-color: rgb(64, 174, 224);
+  }
+  .birthday {
+    border: 5px solid violet;
+    float: left;
+    width: 34%;
+    padding: 30px;
+    background-color: red;
+  }
+  .wedding {
+    border: 5px solid wheat;
+    float: left;
+    width: 33%;
+    padding: 30px;
+    background-color: tomato;
+  }
+  
+  .public {
+    border: 5px solid wheat;
+    float: left;
+    width: 33%;
+    padding: 20px;
+    background-color: tomato;
+    display: inline;
+    font-size: x-large;
+  }
+  .midContainer {
+    margin: 0px 40px;
+  }
+  .btn {
+    padding: 20px;
+  }
+  .footer {
+    border: 5px solid green;
+    padding: 50px;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+  }
+  .feedback {
+    border: 5px solid wheat;
+    height: 200px;
+  }
+  
