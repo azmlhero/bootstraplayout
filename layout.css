@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Popins",sans-serif;
+
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index:9999;
+.navbar ul.nav 
+{
+    margin-right: 5%;
+}
+.navbar ul.nav li.active,
+
+.navbar ul.nav li:hover{
+    background-color: rgb(255,255,255,0.5);
+    color: #000;
+}
+.navbar .logo{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 750;
+    letter-spacing: 2px;
+} 
+.navbar ul.nav li a{
+color: #fff;
+font-size: 1em;
+font-weight:500;
+}
+.navbar ul.nav li.active a,
+
+.navbar ul.nav li:hover a{
+    color:#000
+}
+#carouselExampleIndicators{
+    position:relative;
+    height: 100%;
+    width: 100%;
+}  
+#carouselExampleIndicators .carousel-inner{
+    position:relative;
+    height: 100%;
+    width: 100%;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+
+    position:relative;
+    height: 100%;
+    width: 100%;
+   background:url("https://images.pexels.com/photos/5686476/pexels-photo-5686476.jpeg?cs=srgb&dl=pexels-olenka-sergienko-5686476.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+}
